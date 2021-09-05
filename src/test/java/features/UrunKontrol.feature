@@ -1,4 +1,4 @@
-Feature: Giriş, Butik Kontrol, Ürün Seçimi, Çıkış
+Feature: Trendyol Feature
 
   Scenario: Trendyol sitesinde butik kontrolleri ve sepete ürün eklenmesi
     Given Kullanıcı, Trendyol anasayfasını açar

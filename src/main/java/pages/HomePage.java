@@ -2,10 +2,8 @@ package pages;
 
 
 
-import org.openqa.selenium.WebElement;
-
 import elements.HomePageElements;
-import junit.framework.Assert;
+import org.junit.Assert;
 
 
 public class HomePage extends HomePageElements {
