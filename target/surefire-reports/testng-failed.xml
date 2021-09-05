@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Selenium Cucumber TestNG POM]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="1" parallel="tests" name="Free CRM Login(failed)" verbose="0">
+    <classes>
+      <class name="runner.TestRunner">
+        <methods>
+          <include name="tearDown"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- runner.TestRunner -->
+    </classes>
+  </test> <!-- Free CRM Login(failed) -->
+</suite> <!-- Failed suite [Selenium Cucumber TestNG POM] -->

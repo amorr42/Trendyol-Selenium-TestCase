@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="25.346" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="C:\Users\bdinc\Desktop\samplejava\MavenSeleniumCucumberTestNG-master\target\test-classes;C:\Users\bdinc\Desktop\samplejava\MavenSeleniumCucumberTestNG-master\target\classes;C:\Users\bdinc\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\bdinc\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\bdinc\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\bdinc\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\bdinc\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\bdinc\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\bdinc\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\bdinc\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\bdinc\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Users\bdinc\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\bdinc\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\bdinc\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\bdinc\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\bdinc\.m2\repository\net\masterthought\cucumber-reporting\4.10.0\cucumber-reporting-4.10.0.jar;C:\Users\bdinc\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9.3\jackson-databind-2.9.9.3.jar;C:\Users\bdinc\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\bdinc\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar;C:\Users\bdinc\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\bdinc\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\bdinc\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\bdinc\.m2\repository\velocity-tools\velocity-tools\1.4\velocity-tools-1.4.jar;C:\Users\bdinc\.m2\repository\joda-time\joda-time\2.10.2\joda-time-2.10.2.jar;C:\Users\bdinc\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\bdinc\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\bdinc\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.0\plexus-utils-3.2.0.jar;C:\Users\bdinc\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\bdinc\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20190610.1\owasp-java-html-sanitizer-20190610.1.jar;C:\Users\bdinc\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\bdinc\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\bdinc\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\bdinc\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\bdinc\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\bdinc\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\bdinc\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\bdinc\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\bdinc\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\bdinc\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\bdinc\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\bdinc\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\bdinc\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\bdinc\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\bdinc\AppData\Local\Temp\surefire17599024762236396200\surefirebooter5339748276207091055.jar C:\Users\bdinc\AppData\Local\Temp\surefire17599024762236396200 2021-09-05T15-13-46_798-jvmRun1 surefire3882125328401045032tmp surefire_09727287004328266266tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\bdinc\Desktop\samplejava\MavenSeleniumCucumberTestNG-master\target\test-classes;C:\Users\bdinc\Desktop\samplejava\MavenSeleniumCucumberTestNG-master\target\classes;C:\Users\bdinc\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\bdinc\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\bdinc\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\bdinc\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\bdinc\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\bdinc\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\bdinc\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\bdinc\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\bdinc\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Users\bdinc\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\bdinc\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\bdinc\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\bdinc\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\bdinc\.m2\repository\net\masterthought\cucumber-reporting\4.10.0\cucumber-reporting-4.10.0.jar;C:\Users\bdinc\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9.3\jackson-databind-2.9.9.3.jar;C:\Users\bdinc\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\bdinc\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar;C:\Users\bdinc\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\bdinc\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\bdinc\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\bdinc\.m2\repository\velocity-tools\velocity-tools\1.4\velocity-tools-1.4.jar;C:\Users\bdinc\.m2\repository\joda-time\joda-time\2.10.2\joda-time-2.10.2.jar;C:\Users\bdinc\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\bdinc\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\bdinc\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.0\plexus-utils-3.2.0.jar;C:\Users\bdinc\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\bdinc\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20190610.1\owasp-java-html-sanitizer-20190610.1.jar;C:\Users\bdinc\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\bdinc\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\bdinc\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\bdinc\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\bdinc\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\bdinc\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\bdinc\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\bdinc\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\bdinc\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\bdinc\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\bdinc\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\bdinc\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\bdinc\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\bdinc\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\bdinc\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\bdinc"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\bdinc\Desktop\samplejava\MavenSeleniumCucumberTestNG-master"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\bdinc\AppData\Local\Temp\surefire17599024762236396200\surefirebooter5339748276207091055.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="user.name" value="bdinc"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1254"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\bdinc\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\bdinc\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="C:\Users\bdinc\Desktop\samplejava\MavenSeleniumCucumberTestNG-master"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-15.0.1/bin/server;C:/Program Files/Java/jdk-15.0.1/bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\bdinc\AppData\Local\Android\Sdk\build-tools;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_271;C:\Program Files\nodejs\;C:\Users\bdinc\AppData\Local\Android\Sdk;C:\Users\bdinc\AppData\Local\Android\Sdk\platform-tools;C:\Users\bdinc\AppData\Local\Android\Sdk\tools;C:\Users\bdinc\AppData\Local\Android\Sdk\build-tools;C:\Users\bdinc\AppData\Local\Android\Sdk\tools\bin;C:\Users\bdinc\AppData\Roaming\npm;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2020.3.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Python36;C:\Program Files\Python36\Scripts;C:\Users\bdinc\AppData\Local\Microsoft\WindowsApps;C:\Users\bdinc\AppData\Local\Programs\Python\Python39\;C:\Users\bdinc\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\bdinc\AppData\Local\Programs\Python\Python36\;C:\Users\bdinc\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1\bin;;C:\Users\bdinc\AppData\Local\GitHubDesktop\bin;C:\Users\bdinc\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="feature" classname="runner.TestRunner" time="24.031">
+    <failure message="org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BERKAY&apos;, ip: &apos;192.168.199.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 91.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210823123856, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 26420, moz:profile: C:\Users\bdinc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 38ae5d63-a9bc-4048-96c3-3b93aba27e88" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
+org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BERKAY', ip: '192.168.199.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 91.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210823123856, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 26420, moz:profile: C:\Users\bdinc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 38ae5d63-a9bc-4048-96c3-3b93aba27e88
+	at runner.TestRunner.feature(TestRunner.java:40)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BERKAY', ip: '192.168.199.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 91.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210823123856, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 26420, moz:profile: C:\Users\bdinc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 38ae5d63-a9bc-4048-96c3-3b93aba27e88
+</failure>
+    <system-out><![CDATA[Feature: Giriş, Butik Kontrol, Ürün Seçimi, Çıkış
+The page under test has 83 images
+https://cdn.dsmcdn.com/web/logo/ty-logo.svg >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/web/production/placeholderSmall.png >> 200>>OK
+https://cdn.dsmcdn.com/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15551619355300_SanaOzel.png >> 200>>OK
+https://cdn.dsmcdn.com/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15551619355311_SenDeAl.png >> 200>>OK
+https://cdn.dsmcdn.com/marketing/datascience/automation/2020/12/30/EglenceWeb_202012301831.png >> 200>>OK
+https://cdn.dsmcdn.com/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15561619355388_Trendyolmilla.png >> 200>>OK
+Failure in after hook:TestBaseHooks.tearDown(Scenario)
+Message: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BERKAY', ip: '192.168.199.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 91.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210823123856, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 26420, moz:profile: C:\Users\bdinc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 38ae5d63-a9bc-4048-96c3-3b93aba27e88
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at step_definitions.TestBaseHooks.tearDown(TestBaseHooks.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at runner.TestRunner.feature(TestRunner.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+      org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'BERKAY', ip: '192.168.199.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 91.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210823123856, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 26420, moz:profile: C:\Users\bdinc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: 38ae5d63-a9bc-4048-96c3-3b93aba27e88
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+      	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+      	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+      	at step_definitions.TestBaseHooks.tearDown(TestBaseHooks.java:28)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+      	at cucumber.runtime.Utils$1.call(Utils.java:40)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+      	at cucumber.runtime.Utils.invoke(Utils.java:34)
+      	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+      	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
+      	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
+      	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at runner.TestRunner.feature(TestRunner.java:40)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+      	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+      	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+      	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+      	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+      	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+      	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+      	at org.testng.TestRunner.run(TestRunner.java:591)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+      	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+      	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+  Scenario: Trendyol sitesinde butik kontrolleri ve sepete ürün eklenmesi # UrunKontrol.feature:3
+    Given Kullanıcı, Trendyol anasayfasını açar                           # HomePageStep.kullanıcı_Trendyol_anasayfasını_açar()
+    Then Çıkan reklam kapatılır                                           # HomePageStep.çıkan_reklam_kapatılır()
+    And Kullanıcı, Trendyol Başlık ve GirişYap bilgisini görür            # HomePageStep.kullanıcı_Trendyol_Başlık_ve_GirişYap_bilgisini_görür()
+    Then Giriş yap butonuna basar                                         # HomePageStep.giriş_yap_butonuna_basar()
+    When Kullanıcı ve Şifre ile sisteme giriş yapar                       # HomePageStep.kullanıcı_ve_Şifre_ile_sisteme_giriş_yapar()
+    Then KADIN tabına basar                                               # ButikControlSteps.kadın_tabına_basar()
+    And Butik imajları kontrol eder                                       # ButikControlSteps.butik_imajları_kontrol_eder()
+      org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'BERKAY', ip: '192.168.199.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 91.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210823123856, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 26420, moz:profile: C:\Users\bdinc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: 38ae5d63-a9bc-4048-96c3-3b93aba27e88
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+      	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+      	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+      	at pages.LoginPage.controlImg(LoginPage.java:42)
+      	at step_definitions.ButikControlSteps.butik_imajları_kontrol_eder(ButikControlSteps.java:23)
+      	at ?.And Butik imajları kontrol eder(UrunKontrol.feature:10)
+
+    Then ERKEK tabına basar                                               # ButikControlSteps.erkek_tabına_basar()
+    And Butik imajları kontrol eder                                       # ButikControlSteps.butik_imajları_kontrol_eder()
+    Then ÇOCUK tabına basar                                               # ButikControlSteps.çocuk_tabına_basar()
+    And Butik imajları kontrol eder                                       # ButikControlSteps.butik_imajları_kontrol_eder()
+    Then EV & YAŞAM tabına basar                                          # ButikControlSteps.ev_YAŞAM_tabına_basar()
+    And Butik imajları kontrol eder                                       # ButikControlSteps.butik_imajları_kontrol_eder()
+    Then SÜPERMARKET tabına basar                                         # ButikControlSteps.süpermarket_tabına_basar()
+    And Butik imajları kontrol eder                                       # ButikControlSteps.butik_imajları_kontrol_eder()
+    Then KOZMETİK tabına basar                                            # ButikControlSteps.kozmetik_tabına_basar()
+    And Butik imajları kontrol eder                                       # ButikControlSteps.butik_imajları_kontrol_eder()
+    Then AYAKKABI & ÇANTA tabına basar                                    # ButikControlSteps.ayakkabı_ÇANTA_tabına_basar()
+    And Butik imajları kontrol eder                                       # ButikControlSteps.butik_imajları_kontrol_eder()
+    Then SAAT & AKSESUAR tabına basar                                     # ButikControlSteps.saat_AKSESUAR_tabına_basar()
+    And Butik imajları kontrol eder                                       # ButikControlSteps.butik_imajları_kontrol_eder()
+    Then ELEKTRONİK tabına basar                                          # ButikControlSteps.elektronik_tabına_basar()
+    And Butik imajları kontrol eder                                       # ButikControlSteps.butik_imajları_kontrol_eder()
+    Then SPOR&OUTDOOR tabına basar                                        # ButikControlSteps.spor_OUTDOOR_tabına_basar()
+    And Butik imajları kontrol eder                                       # ButikControlSteps.butik_imajları_kontrol_eder()
+    Then Rastgele bir butik seçer
+    And Ürün görsellerini kontrol eder
+    Then Herhangi bir ürünün detayına gider
+    And Ürünü sepete ekler
+    And Kullanıcı, çıkış yapar
+]]></system-out>
+    <system-err><![CDATA[1630844029862	geckodriver	INFO	Listening on 127.0.0.1:17379
+1630844030711	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bdinc\\AppData\\Local\\Temp\\rust_mozprofileim6tz2"
+1630844031327	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bdinc\\AppData\\Local\\Temp\\rust_mozprofileim6tz2\\search.json.mozlz4", (void 0)))
+1630844035398	Marionette	INFO	Listening on port 60898
+1630844035569	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Eyl 05, 2021 3:13:55 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN No appenders could be found for logger (pages.BasePage).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-292J, line 286: unreachable code after return statement
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-292J, line 35: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-292J, line 35: uncaught exception: [object Object]
+JavaScript error: https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C2J4J0SQTD93QKDL0IA0&lib=ttq, line 3: ChunkLoadError: Loading chunk 1 failed.
+(error: https://analytics.tiktok.com/i18n/pixel/identify.js)
+JavaScript error: https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C2J4J0SQTD93QKDL0IA0&lib=ttq, line 3: ChunkLoadError: Loading chunk 1 failed.
+(error: https://analytics.tiktok.com/i18n/pixel/identify.js)
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-292J, line 286: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-292J, line 286: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-292J, line 286: unreachable code after return statement
+1630844051569	Marionette	INFO	Stopped listening on port 60898
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+  </testcase>
+</testsuite>
