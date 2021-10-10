@@ -15,8 +15,8 @@ public class LoginPageElements extends TestUtility {
 	
 	public By username = By.id("login-email"); 
 	public By password = By.id("login-password-input");
-	protected String user = "berkaygamze95@gmail.com";
-	protected String pass = "epsilon1234";
+	protected String user = "";
+	protected String pass = "";
 	public By loginButton = By.xpath("//button[@type='submit']"); 
 	public By tabKadın = By.xpath("//a[@class='category-header'][contains(text(),'Kadın')]"); 
 	public By tabErkek = By.xpath("//a[@class='category-header'][normalize-space()='Erkek']"); 
